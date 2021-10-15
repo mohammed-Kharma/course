@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>charts page</title>
+  <!-- fonts CDN Link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+  <!-- Boxicons CDN Link -->
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/all.css">
+  <link rel="stylesheet" href="extra libraries/animate.min.css">
+  <link rel="stylesheet" href="css/style.css">
+ 
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="extra libraries/animate.min.css">
+    <link rel="stylesheet" href="css/media.css">
+  <style>
+
+
+
+  </style>
+</head>
+
+<body>
+  <div class="holder-dashboard">
+     <!-- start home -->
+     <div class="sidebar">
+      <div class="logo_content">
+        <div class="logo">
+          <i class='bx bxs-virus'></i>
+          <div class="logo_name">courses</div>
+        </div>
+        <i class='bx bx-menu' id="btn"></i>
+      </div>
+      <ul class="nav_list">
+        <li>
+          <i class='bx bx-search'></i>
+          <input type="text" placeholder="Search...">
+          <span class="tooltip">Search</span>
+        </li>
+        <li>
+          <a href="dashbord.html">
+            <i class='bx bx-grid-alt'></i>
+            <span class="links_name">Dashboard</span>
+          </a>
+          <span class="tooltip">Dashboard</span>
+        </li>
+        <li>
+          <a href="view_pers_prof.html">
+            <i class='bx bx-user'></i>
+            <span class="links_name">Profile</span>
+          </a>
+          <span class="tooltip">Profile</span>
+        </li>
+        <li>
+          <a href="list-admin.html">
+            <i class='bx bx-chat'></i>
+            <span class="links_name">Admins</span>
+          </a>
+          <span class="tooltip">Admins</span>
+        </li>
+        <li>
+          <a href="lsit-teacher.html">
+            <i class='bx bx-pie-chart-alt-2'></i>
+            <span class="links_name">Teacher</span>
+          </a>
+          <span class="tooltip">Teacher</span>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-folder'></i>
+            <span class="links_name">Categories</span>
+          </a>
+          <span class="tooltip">Categories</span>
+        </li>
+        <li>
+          <a href="list-student.html">
+            <i class='bx bx-cart-alt'></i>
+            <span class="links_name">Student</span>
+          </a>
+          <span class="tooltip">student</span>
+        </li>
+        <li>
+          <a href="">
+            <i class='bx bx-heart'></i>
+            <span class="links_name">Services</span>
+          </a>
+          <span class="tooltip">Services</span>
+        </li>
+        <li>
+          <a href="list-ad.html">
+            <i class="bx bx-ghost"></i>
+            <span class="links_name">Advertisement</span>
+          </a>
+          <span class="tooltip">Advertisement</span>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-cog'></i>
+            <span class="links_name">Settings</span>
+          </a>
+          <span class="tooltip">Settings</span>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-log-out'></i>
+            <span class="links_name">Log out</span>
+          </a>
+          <span class="tooltip">Log out</span>
+        </li>
+      </ul>
+    </div>
+    <!-- small device menu -->
+    <nav class="navbar navbar-expand-lg navbar-dark  topmune">
+      <i class='bx bxs-virus cor_vir'></i>
+      <a class="navbar-brand" href="#">courses</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="dashbord.html">Dashboard</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="list-admin.html">Admins</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Categories</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="view_pers_prof.html">Profile</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="list-student.html">student</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="lsit-teacher.html">Teacher</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="list-ad.html">Advertisement</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Settings</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Log out</a>
+          </li>
+  
+        </ul>
+      </div>
+    </nav>
+
+    <div class="home_content">
+       <section class="profile">
+        <div class="head-title">
+          <h3>Edit Catogrey</h3>
+        </div>
+        <form style="padding: 5px;" action="">
+            <div class="inf-persoanl">
+                <div class="all-input">
+                  <label for="one">Catogrey Name:</label>
+                  <input type="text" value="" placeholder="Enter First Name.." name="one">
+                </div>
+                <div class="all-input">
+                    <label for="ffa">Descrpition</label>
+                    <textarea name="" name="ffa" style="width: 100%; height: 100px;" ></textarea>
+                </div>
+             
+               
+               
+                <div class="div_choose_file">
+                    <label for="uuu">Photo:</label>
+                    <!-- Upload image input-->
+                    <div id="image" class="input-group mb-3 px-2 py-2 rounded-pill bg-white shadow-sm">
+                     
+                        <input id="upload" type="file" name="uuu" style="display: none;" onchange="readURL(this);" class="form-control form_controlling border-0" accept=".jpg, .jpeg, .png">
+                        <label id="upload-label" for="upload" class="font-weight-light text-muted">Choose file</label>
+                        <div class="input-group-append">
+                            <label for="upload" class="btn btn-light m-0 rounded-pill px-4"> <i class="fa fa-cloud-upload mr-2 text-muted"></i><small class="text-uppercase font-weight-bold text-muted">Choose file</small></label>
+                        </div>
+                    </div>
+                    </div>
+                <div class="all-but">
+                  <button>Update</button>
+                </div>
+              </div>
+        </form>
+       </section>
+    </div>
+  </div>
+  <!-- end home -->
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="extra libraries/amcharts4/"></script>
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <script src="https://cdn.amcharts.com/lib/4/core.js"></script>
+  <script src="https://cdn.amcharts.com/lib/4/charts.js"></script>
+  <script src="https://cdn.amcharts.com/lib/4/themes/animated.js"></script>
+  <script src="js/perofile.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
